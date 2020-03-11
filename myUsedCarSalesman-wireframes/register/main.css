@@ -1,0 +1,48 @@
+nav {
+  padding: 2%;
+  background-color: #aaa;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  font-size: 3vw;
+}
+
+.login-box{
+margin-top: 15%;
+margin-right: auto;
+margin-left: auto;
+width: 90%;
+max-width: 500px;
+text-align: center;
+font-size: 6vw;
+border: black solid 2px;
+}
+
+label, input{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0;
+font-size: 5vw;
+
+}
+
+.submit{
+margin: 20px auto;
+}
+
+@media screen and (min-width: 1000px) {
+  nav {
+    font-size: 25px;
+  }
+
+  .login-box > *{
+    font-size: 30px;
+  }
+
+  label, input{
+    font-size: 30px;
+  }
+}

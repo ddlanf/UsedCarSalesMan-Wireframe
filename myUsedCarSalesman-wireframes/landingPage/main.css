@@ -1,0 +1,134 @@
+body{
+  text-align: left;
+  margin-top: 10%;
+}
+
+nav {
+    padding: 2%;
+    background-color: #aaa;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    font-size: 3vw;
+ }
+
+ .temp{
+   text-align: center;
+ }
+
+ .hero{
+  height: 45vw;
+  width: 98%;
+  border: black dotted 1px;
+  background-color: white;
+ }
+
+ .heading-box{
+   height: 30%;
+   position: relative;
+   margin-bottom: 5vw;
+   width: 85%;
+   margin-left: auto;
+   margin-right: auto;
+   
+   text-align: center;
+ }
+
+ .sub-text{
+   text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+   width: 95%;
+   font-size: 3vw;
+ }
+
+ section{
+   padding: 1%;
+   font-size: 4.2vw;
+   width: 95%;
+   margin: 5% auto;
+   background-color: #aaa;
+   max-width: 1200px;
+ }
+
+ h1{
+   font-size: 6vw;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+p{
+  font-size: 3vw;
+  line-height: normal;
+}
+
+.auth-boxes > div{
+  width: 45%;
+  height: 35vw;
+  background-color: white;
+  border: solid black 1px;
+}
+
+.auth-boxes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login-register-admin{
+  font-size: 2vw;
+  text-align: left;
+}
+
+.Login-register-admin > p{
+  font-size: 2vw;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 0;
+}
+
+label, input{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  height: 1.5vw;
+  margin-bottom: 1%;
+  font-size: 1.5vw;
+}
+
+.submit{
+  height: 3vw;
+  width: 20%;
+  text-align: center;
+  font-size: 1.4vw;
+  padding: 0;
+  margin-top: 3%;
+}
+
+.additional-info > p{
+  font-size: 3w;
+  text-align: center;
+}
+
+ @media screen and (min-width: 900px) {
+    nav {
+      font-size: 25px;
+    }
+
+    h1{
+      font-size: 56px;
+    }
+
+    .sub-text > p{
+      font-size: 30px;
+    }
+  }
